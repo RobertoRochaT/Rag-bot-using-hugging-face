@@ -26,7 +26,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = FastAPI()
-
+#con
 # Configuración de CORS
 app.add_middleware(
     CORSMiddleware,
